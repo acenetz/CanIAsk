@@ -1,0 +1,61 @@
+/******************
+Home Page Styles
+*******************/
+
+/* Base styles */
+.l-wrapper {
+	padding: 0 1em;
+	width: 100%;
+}
+
+#question-answer-container {
+	min-height: 15em;
+	padding: 1em;
+	position: relative;
+	width: 100%;
+}
+#question-answer-section {
+	bottom: 0;
+	left: 0;
+	position: absolute;
+	width: 100%;
+}
+.l-question-text {}
+.l-answer-text {
+	width: 100%;
+	font-size: 1.2em;
+	margin-top: 1em;
+}
+
+/* Textbox*/
+.l-text-field {
+	height: 3em;
+	width: 100%;
+	margin: 2em 0 2em;
+	padding: 0.25em 0.5em;
+}
+
+/* All style for microphone */
+.t-microphone {
+	width: 5em;
+}
+
+/* Medium Screen*/
+@media (min-width: 678px) {
+	.l-answer-text, .l-text-field {
+		width: 75%;
+	}
+	#question-answer-container {
+		min-height: 18em;
+	}
+}
+
+/* Large Screen*/
+@media (min-width: 1024px) {
+	.l-answer-text, .l-text-field {
+		width: 50%;
+	}
+	#question-answer-container {
+		min-height: 20em;
+	}
+}

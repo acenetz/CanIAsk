@@ -1,0 +1,64 @@
+
+/******	Common Styles
+************************************/
+
+/* Reset */
+body, div, span, h1, h2, h3, h4, h5, h6, input, img {
+	padding: 0;
+	margin: 0;
+	color: #484646;
+}
+
+*, *:before, *:after {
+  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box; 
+  box-sizing: border-box;
+}
+
+body {
+	background: #f9f4dd;
+	font-size: 14px;
+	position: relative;
+	width: 100%;
+
+}
+.l-display-none { display: none; }
+.l-text-center { text-align: center; }
+.l-text-left { text-align: left; }
+
+.l-block-center {
+	display: block;
+	margin: 0 auto;
+}
+.l-center {
+	margin: 0 auto;
+}
+.l-display-block {
+	display: block;
+}
+.t-button-submit {
+	background: #497af7;
+	border: 1px solid #497af7;
+	color: #fff;
+	height: 3em;
+	min-width: 10em;
+}
+.t-button-submit:hover {
+	background: #386cf2;
+	border: 1px solid #386cf2;
+}
+.t-cursor {
+	cursor: pointer;
+}
+.t-border-light-green {
+	border: 1px solid #1fe224;
+}
+.t-color-light-green {
+	color: #1fe224;
+}
+.t-border-blue {
+	border: 1px solid #497af7;
+}
+.t-color-blue {
+	color: #497af7;
+}
